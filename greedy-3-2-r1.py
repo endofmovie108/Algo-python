@@ -1,5 +1,7 @@
 # 92p
 # greedy
+# 코드의 효율화를 위해 수열의 반복성을 활용하여
+# 코드 수행시간을 낮춤
 import sys
 sys.stdin = open("input.txt", "r")
 n, m, k = map(int, input().split())
